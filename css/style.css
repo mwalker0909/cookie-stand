@@ -1,0 +1,129 @@
+
+body {
+  font-family: Verdana, Josefin+Sans, Tahoma, sans-serif;
+  color: rgb(223, 26, 26);
+  background-color: rgb(177, 113, 29);
+  color: black
+
+}
+label {
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  
+}
+
+#submitButton {
+  margin-left:100px;
+}
+#place {
+  margin-left:20px;
+  font: sans-serif;
+  font-size: 135%;
+  font-style: bold;
+  color: rgb(92, 43, 226);
+}
+#cxMin {
+  margin-left:20px;
+  font: sans-serif;
+  font-size: 135%;
+  font-style: bold;
+  color: rgb(160, 93, 223);
+
+}
+#cxMax {
+  margin-left:20px;
+  font: sans-serif;
+  font-size: 135%;
+  font-style: bold;
+  color: rgb(184, 140, 224);
+}
+#cookieAvg {
+    margin-left:20px;
+    font: sans-serif;
+    font-size: 135%;
+    font-style: bold;
+  color: rgb(193, 161, 223);
+}
+#cookieform {
+  font: Verdana;
+  font-size: 150%;
+  font-style: italic, bold;
+
+}
+
+
+section {
+  background-color: rgb(177, 113, 29);  
+}
+
+img {
+  background-color: rgb(177, 113, 29);
+}
+td {
+  color: rgb(37, 33, 230)
+}
+h1 {
+  color: green
+}
+
+th {
+  color: blue
+}
+#fieldsetId {
+  float: left;
+  width: 40%;
+  margin-top: 15px;
+  margin-left: 16%;
+
+
+}
+#submitButton {
+  margin-top: 15px;
+}
+
+#cityProfits {
+  border: 5px solid rgb(99, 75, 235);
+  margin-left: 16%;
+  margin-right: 30%;
+  margin-bottom: 15px;
+}
+
+#headerTag {
+  font: Tahoma;
+  color: greenyellow;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+#backButton {
+  font-size: 155%;
+  margin-left: 18%;
+  margin-top: 25%;  
+  float:bottom;
+}
+
+#backHeader {
+  display: inline;
+  
+  color: rgba(39, 189, 64,);
+  
+  margin-left: 13%;
+}
+
+#sales-table {
+
+  margin-right: 22%;
+}
+#addtionalPhotos {
+  padding: 25px;
+  display: inline-block
+}
+legend {
+  font-family: Josefin+Sans;
+  color: rgba(0, 0, 0, 0.452);
+  font-size: 135%;
+}
