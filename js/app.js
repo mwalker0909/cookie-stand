@@ -42,13 +42,13 @@ var tableHead = function () {
     cityProfits.appendChild(article);
 
     var table = document.createElement('table');
-    table.setAttribute('id', `sales-table`);
+    table.setAttribute('id', 'sales-table');
     article.appendChild(table); 
 
     var firstRow = document.createElement('tr');
     table.appendChild(firstRow);
     var th = document.createElement('th');
-    th.textContent = ``;
+    th.textContent = '';
     firstRow.appendChild(th);
         for(var i = 0; i < hours.length; i++) {
             th = document.createElement('th');
@@ -56,13 +56,13 @@ var tableHead = function () {
             firstRow.appendChild(th);
         }
     var th = document.createElement('th');
-    th.textContent = `Daily Location Total`;
+    th.textContent = 'Daily Location Total';
     firstRow.appendChild(th);
 
   };
 
     var tableFooter = function () {
-    var table = document.getElementById(`sales-table`);
+    var table = document.getElementById('sales-table');
 
     var firstRow = document.createElement('tr');
     table.appendChild(firstRow);
@@ -71,7 +71,7 @@ var tableHead = function () {
     table.appendChild(tfoot);
 
     var td = document.createElement('td');
-    td.textContent = `Totals`;
+    td.textContent = 'Totals';
     
     firstRow.appendChild(td);
     for(var i = 0; i <= hours.length; i++) {
@@ -80,7 +80,7 @@ var tableHead = function () {
     }
 };
     City.prototype.tableBody = function () {
-        var table = document.getElementById(`sales-table`);
+        var table = document.getElementById('sales-table');
         var firstRow = document.createElement('tr');
         table.appendChild(firstRow);
         var td = document.createElement('td');
@@ -98,11 +98,11 @@ var tableHead = function () {
         firstRow.appendChild(td);
     };
     
-    var seattle = new City(`Seattle`, 23, 65, 6.3);
-    var tokyo = new City(`Tokyo`, 3, 24, 1.2);
-    var dubai = new City(`Dubai`, 11, 38, 2.3);
-    var paris = new City(`Paris`, 20, 38, 2.3);
-    var lima = new City(`Lima`, 2, 16, 4.6);
+    var seattle = new City('Seattle', 23, 65, 6.3);
+    var tokyo = new City('Tokyo', 3, 24, 1.2);
+    var dubai = new City('Dubai', 11, 38, 2.3);
+    var paris = new City('Paris', 20, 38, 2.3);
+    var lima = new City('Lima', 2, 16, 4.6);
 
 (function renderSales () {
     tableHead();
@@ -132,11 +132,11 @@ function formSubmit(event) {
 }
 
     
-var seattle = new City(`Seattle`, 23, 65, 6.3);
-var tokyo = new City(`Tokyo`, 3, 24, 1.2,);
-var dubai = new City(`Dubai`, 11, 38, 2.3);
-var paris = new City(`Paris`, 20, 38, 2.3);
-var lima = new City(`Lima`, 2, 16, 4.6);
+var seattle = new City('Seattle', 23, 65, 6.3);
+var tokyo = new City('Tokyo', 3, 24, 1.2,);
+var dubai = new City('Dubai', 11, 38, 2.3);
+var paris = new City('Paris', 20, 38, 2.3);
+var lima = new City('Lima', 2, 16, 4.6);
 
 // IIFE used to render tables
 (function displaySales() {
